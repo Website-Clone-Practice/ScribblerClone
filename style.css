@@ -59,7 +59,7 @@ html, body {
 
   #page1 img{
     width: 300px;
-    height: 80vh;
+    height: 80vh; 
     z-index: 0;
 
   }
@@ -287,51 +287,6 @@ nav {
     
   }
 
-  #container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-
-  }
-
-  .ucbox{
-    width: calc(20%);
-    height: 80%;
-    background-color: var(--card-bgcolor);
-    border: 1px solid #eee;
-    border-radius: 5px;
-    margin: 15px;
-    display: flex;
-    align-items: left;
-    justify-content: space-evenly;
-    flex-direction: column;
-    text-align: left;
-    padding: 10px 0px 0px 30px ;
-  }
-  .ucbox:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-
-  .uctop{
-    border-bottom: 1px solid #555555;
-  }
-
-.ucbtn {
-    font-weight: 200;
-    font-size: 15px;
-    background-color: var(--theme-color);
-    color: var(--secodary-color);
-    padding: 15px 25px;
-    border: none;
-    border-radius: 5px;
-    width: 90%;
-}
-.ucbtn:hover{
-    background-color: var(--primary-color);
-    color: var(--text-color);
-}
 
 
 
@@ -472,4 +427,84 @@ nav {
   border: none;
   }
 
- 
+
+
+
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+
+  }
+  
+/*   
+  .ucbox{
+    width: calc(20%);
+    height: 80%;
+    background-color: var(--card-bgcolor);
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin: 15px;
+    display: flex;
+    align-items: left;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: left;
+    padding: 10px 0px 0px 30px ;
+  }
+  .ucbox:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .uctop{
+    border-bottom: 1px solid #555555;
+  }
+
+.ucbtn {
+    font-weight: 200;
+    font-size: 15px;
+    background-color: var(--theme-color);
+    color: var(--secodary-color);
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    width: 90%;
+}
+.ucbtn:hover{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+} */
+
+#container .btn {
+  font-weight: 200;
+  font-size: 15px;
+  background-color: var(--theme-color);
+  color: var(--secodary-color);
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  width: auto;
+}
+
+#containerbox {
+  height: 50vh;
+  width: calc(23%);
+}
+#container #top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+  height: 30%;
+}
+#container #btm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 15px;
+  height: 70%;
+}

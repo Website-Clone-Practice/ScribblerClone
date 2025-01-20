@@ -1,0 +1,24 @@
+ <div
+          id="box"
+          className="shadow-2xl w-1/5  rounded-md  bg-white py-8 px-10"
+        >
+          <div
+            id="top"
+            className="border-b-2 border-zinc-400 w-full pb-4 flex flex-col gap-4"
+          >
+            <h1 className="font-semibold">Learn</h1>
+            <p className="text-zinc-500">
+              Learn JavaScript coding easy to use interface.
+            </p>
+            <button className="bg-slate-900 text-white py-1 w-full px-2 rounded-sm">
+              Sample Notebook
+            </button>
+          </div>
+          <div id="btn">
+            <h1 className="font-semibold mt-2 mb-2">Key Points</h1>
+            <p>Use HTML and JS.</p>
+            <p>Interact with UI elements.</p>
+            <p>Plot charts.</p>
+            <p>Write functions, classes and other reusable code.</p>
+          </div>
+        </div>
